@@ -494,4 +494,5 @@ endif
 
 " Personal
 set cursorline
+set colorcolumn=81
 inoremap jk <esc>
