@@ -1,0 +1,17 @@
+#!/bin/bash
+
+printf "Copying"
+
+# NeoVim config
+mkdir -p ~/.config/nvim && cp nvim/init.vim ~/.config/nvim
+printf "."
+
+# Global gitignore
+cp gitignore ~/.gitignore
+printf "."
+
+# oh-my-zshrc
+cp zshrc ~/.zshrc
+printf "."
+
+printf "done.\n"
