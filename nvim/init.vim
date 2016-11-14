@@ -491,3 +491,7 @@ else
   let g:airline_symbols.readonly = ''
   let g:airline_symbols.linenr = ''
 endif
+
+" Personal
+set cursorline
+inoremap jk <esc>
