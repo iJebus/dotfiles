@@ -496,3 +496,17 @@ endif
 set cursorline
 set colorcolumn=81
 inoremap jk <esc>
+
+let g:python_host_prog = '/home/liam/.pyenv/versions/neovim2/bin/python'
+let g:python3_host_prog = '/home/liam/.pyenv/versions/neovim3/bin/python'
+let g:syntastic_python_flake8_args = ['-m', 'flake8']
+
+function SetPython2()
+    let g:syntastic_python_flake8_exec = g:python_host_prog
+endfunction
+
+function SetPython3()
+    let g:syntastic_python_flake8_exec = g:python3_host_prog
+endfunction
+
+call SetPython3()
