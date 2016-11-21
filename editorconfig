@@ -1,0 +1,15 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+insert_final_newline = true
+
+[*.py]
+indent_size = 4
+insert_final_newline = false
+
+# Indentation override for all JS under lib directory
+[*.{html,js,json,yaml,yml}]
+indent_size = 2

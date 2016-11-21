@@ -14,4 +14,8 @@ printf "."
 cp zshrc ~/.zshrc
 printf "."
 
+# Global editorconfig
+cp editorconfig ~/.editorconfig
+printf "."
+
 printf "done.\n"

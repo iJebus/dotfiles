@@ -42,6 +42,7 @@ Plug 'majutsushi/tagbar'
 Plug 'scrooloose/syntastic'
 Plug 'Yggdroot/indentLine'
 Plug 'avelino/vim-bootstrap-updater'
+Plug 'editorconfig/editorconfig-vim'
 
 let g:make = 'gmake'
 if system('uname -o') =~ '^GNU/'
