@@ -43,6 +43,7 @@ Plug 'scrooloose/syntastic'
 Plug 'Yggdroot/indentLine'
 Plug 'avelino/vim-bootstrap-updater'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'elmcast/elm-vim'
 
 let g:make = 'gmake'
 if system('uname -o') =~ '^GNU/'
@@ -536,3 +537,5 @@ function SetPython3()
 endfunction
 
 call SetPython3()
+
+let g:elm_format_autosave = 1
