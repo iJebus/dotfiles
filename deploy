@@ -6,6 +6,10 @@ printf "Copying"
 mkdir -p ~/.config/nvim && cp nvim/init.vim ~/.config/nvim
 printf "."
 
+# Byobu config
+mkdir -p ~/.byobu && cp byobu/profile.tmux ~/.byobu
+printf "."
+
 # Global gitignore
 cp gitignore ~/.gitignore
 printf "."
